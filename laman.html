@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SCHATSYFARE</title>
+	<link rel="stylesheet" href="asset/css/bootstrap.min.css">
+	<link rel="stylesheet" href="asset/css/clock.css">
+	<style type="text/css">
+		.full {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+		}
+		.first-row {
+			height: 94vh;
+		}
+		.second-row {
+			height: 1vh;
+			padding: 0px;
+		}
+		.left-panel {
+			width: 20vw;
+		}
+		.primary-panel {
+			width: 80vw;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid bg-light full">
+		<div class="row first-row">
+			<div class="left-panel">
+				<div class="card h-100 border-0">
+					<div class="card-body bg-dark">
+						<div id="clock" class="dark" style="transform:scale(.8);margin-left: -40px;margin-top: -15px;">
+							<div class="display">
+								<div class="weekdays"></div>
+								<div class="ampm"></div>
+								<div class="digits"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="primary-panel">
+				<div class="card h-100 border-0">
+					<div class="card-body bg-dark">
+						<div class="table-responsive table-wrap" id="table-wrap">
+							<table class="table table-borderless" id="table-data">
+								<tbody>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body bg-pink p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Dava Agustiani Rahmawati</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-white"><div class="card-body p-3 bg-white text-dark">TEPAT WAKTU</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body bg-pink p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Femmy Marissa Nurjanah</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-white"><div class="card-body p-3 bg-white text-dark">TEPAT WAKTU</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body bg-pink p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Farhan Naufal</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-white"><div class="card-body p-3 bg-white text-dark">TEPAT WAKTU</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body bg-pink p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Muhammad Farhan Madani</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-white"><div class="card-body p-3 bg-white text-dark">TEPAT WAKTU</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body bg-pink p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Fitria Asti Aulia</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-white"><div class="card-body p-3 bg-white text-dark">TEPAT WAKTU</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body bg-pink p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Muhammad Rafi Raditya</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-white"><div class="card-body p-3 bg-white text-dark">TEPAT WAKTU</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body bg-pink p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Fitria Asti Aulia</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-white"><div class="card-body p-3 bg-white text-dark">TEPAT WAKTU</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Muhammad Farhan Madani</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-info"><div class="card-body p-3 bg-info text-dark">TERLAMBAT 00:06:34</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Aurell Dhiendra Niecel Putri</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-info"><div class="card-body p-3 bg-info text-dark">TERLAMBAT 00:07:11</div></div></td>
+									</tr>
+									<tr>
+										<td><div class="card"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td><div class="card bg-pink"><div class="card-body p-3">06:43:09 AM</div></div></td>
+										<td class="bg-black text-grey w-75"><h4>Fajri Siddiq</h4><p><strong>171113312</strong> | 1-SIJA-B</p></td>
+										<td><div class="card bg-info"><div class="card-body p-3 bg-info text-dark">TERLAMBAT 00:07:56</div></div></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row second-row">
+			<div class="left-panel bg-dark">
+				<h5 class="text-info">SCHATSYFARE<sub class="text-danger"> Made with love.</sub></h5>
+			</div>
+			<div class="primary-panel bg-dark">
+				<marquee><h5 class="text-secondary">Bersiap-siaplah dengan sistem absensi baru jurusan ! [ 5/1/2020 ]</h5></marquee>
+			</div>
+		</div>		
+	</div>
+
+	<!-- REQUIRED JAVASCRIPT, jquery, popper, bootstrap -->
+	<script src="asset/js/jquery-3.4.1.js"></script>
+	<script src="asset/js/popper.min.js"></script>
+	<script src="asset/js/bootstrap.min.js"></script>
+	<script src="asset/js/moment.min.js"></script>
+	<script src="asset/js/clock.js"></script>
+	<script type="text/javascript">
+		function scrollToBottom() {
+		   var scrollBottom = Math.max($('#table-data').height() - $('#table-wrap').height() + 0, 0);
+		   $('#table-wrap').scrollTop(scrollBottom);
+		}
+		$(document).ready(scrollToBottom);
+	</script>
+</body>
+</html>
